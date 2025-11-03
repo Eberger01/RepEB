@@ -1,0 +1,20 @@
+{
+  "name": "event-detector-api",
+  "version": "1.0.0",
+  "description": "Event detection system for aviation transcripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node lib/events/test-detector.ts",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only"
+  },
+  "keywords": ["aviation", "event-detection", "transcripts"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  }
+}
